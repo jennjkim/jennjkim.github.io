@@ -1,87 +1,48 @@
 {
   "basics": {
     "name": "Jennifer J. Kim",
+    "label": "Student",
+    "image": "",
     "email": "jjk358@cornell.edu",
-    "website": "https://jennjkim.github.io",
+    "phone": "",
+    "url": "https://jennjkim.github.io",
+    "summary": "B.A. in Mathematics student at Cornell University, expected graduation May 2025.",
     "location": {
+      "address": "",
+      "postalCode": "",
       "city": "Ithaca",
-      "countryCode": "USA",
+      "countryCode": "US",
       "region": "New York"
-    }
-  },
-  "profiles": [
-    { "network": "github", "username": "jennjikim", "url": "https://github.com/jennjikim" }
-  ],
-  "education": [
-    {
-      "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
-      "area": "B.A. in Mathematics",
-      "studyType": "Bachelor's",
-      "startDate": "2021",
-      "endDate": "2025",
-      "courses": [],
-      "summary": "Expected May 2025\nDean’s List\nMinors in Operations Research and English"
     },
-    {
-      "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
-      "studyType": "High School Diploma",
-      "startDate": "2016",
-      "endDate": "2020-",
-      "summary": "National Merit Semifinalist\nNational AP Scholar\nNational Spanish Exam Gold Medalist\nACT (36/36)"
-    }
-  ],
-  "relevant_coursework": {
-    "Mathematics": [
-      "Honors Introduction to Analysis",
-      "Probability",
-      "Linear Algebra",
-      "Abstract Algebra",
-      "Classical Geometries",
-      "Mathematical Modeling",
-      "Multivariable Calculus",
-      "Calculus I and II"
-    ],
-    "Operations Research & Computer Science": [
-      "Optimization I*",
-      "Simulation Modeling & Analysis*",
-      "Learning with Big Messy Data*",
-      "Object-Oriented Programming and Data Structures",
-      "Introduction to Computing Using Python"
-    ],
-    "Other": [
-      "Financial Accounting",
-      "Intermediate Microeconomics",
-      "Introduction to Macroeconomics"
-    ]
+    "profiles": []
   },
-  "work_and_research": [
+  "work": [
     {
-      "company": "TRIPODS Research Program, University of Rochester",
-      "position": "NSF Participant",
-      "website": "https://www.rochester.edu/data-science/tripods/",
-      "startDate": "Summer 2023",
+      "name": "TRIPODS Research Program, University of Rochester",
+      "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
+      "url": "",
+      "startDate": "2023-06-01",
       "endDate": "",
-      "summary": [
-        "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.",
-        "Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
-      ]
+      "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.\nModeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
     },
     {
-      "company": "Cornell University Math Department",
+      "name": "Cornell University Math Department",
       "position": "Calculus I Course Assistant",
-      "startDate": "Fall 2022",
+      "url": "",
+      "startDate": "2022-08-01",
       "endDate": "Present",
       "summary": "Lead weekly sections and tutor students, create assignment rubrics, grade student work."
     },
     {
-      "company": "Cornell University Library",
+      "name": "Cornell University Library",
       "position": "Student Library Assistant",
-      "startDate": "Fall 2021",
-      "endDate": "Spring 2023",
+      "url": "",
+      "startDate": "2021-08-01",
+      "endDate": "2023-05-01",
       "summary": "Managed graduate carrels, assisted patrons at front desk, processed library materials."
     }
   ],
-  "extracurricular": [
+  "volunteer": [
     {
       "organization": "Cornell Association for Women in Mathematics",
       "position": "Social Events Co-Chair",
@@ -121,41 +82,150 @@
       "endDate": "Spring 2020"
     }
   ],
-  "skills_and_interests": {
-    "Technical Skills": [
-      "Python",
-      "Java",
-      "Matlab",
-      "LaTeX",
-      "AutoCAD",
-      "Autodesk Inventor",
-      "MS Excel & PowerPoint",
-      "Google Suite"
-    ],
-    "Data Science Skills": [
-      "Scikit-learn",
-      "Matplotlib",
-      "NumPy",
-      "Pandas",
-      "PyTorch",
-      "TensorFlow/Keras",
-      "FB Prophet",
-      "Jupyter Notebooks",
-      "Google Colab",
-      "SQL*",
-      "Tableau*",
-      "* indicates skill to be learned in planned Spring '24 coursework"
-    ],
-    "Languages": [
-      "English (fluent)",
-      "Korean (fluent)",
-      "Spanish (beginner)"
-    ],
-    "Interests": [
-      "Data Science",
-      "Mathematics",
-      "Operations Research",
-      "Literature"
-    ]
-  }
+  "education": [
+    {
+      "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
+      "area": "Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2021-08-01",
+      "endDate": "2025-05-01",
+      "score": "",
+      "courses": [],
+      "summary": "Expected May 2025\nDean’s List\nMinors in Operations Research and English"
+    },
+    {
+      "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
+      "area": "",
+      "studyType": "High School Diploma",
+      "startDate": "2016-08-01",
+      "endDate": "2020-05-01",
+      "score": "",
+      "courses": [],
+      "summary": "National Merit Semifinalist\nNational AP Scholar\nNational Spanish Exam Gold Medalist\nACT (36/36)"
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Matlab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LaTeX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AutoCAD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Autodesk Inventor",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MS Excel & PowerPoint",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Suite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scikit-learn",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Matplotlib",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NumPy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Pandas",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PyTorch",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TensorFlow/Keras",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "FB Prophet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jupyter Notebooks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Colab",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Data Science",
+      "keywords": []
+    },
+    {
+      "name": "Mathematics",
+      "keywords": []
+    },
+    {
+      "name": "Operations Research",
+      "keywords": []
+    },
+    {
+      "name": "Literature",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "projects": []
 }
