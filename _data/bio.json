@@ -4,32 +4,27 @@
     "label": "Student",
     "image": "",
     "email": "jjk358@cornell.edu",
-    "phone": "",
     "url": "https://jennjkim.github.io",
     "summary": "B.A. in Mathematics student at Cornell University, with minors in Operations Research & English.",
-    "profiles": []
   },
   "work": [
     {
-      "name": "TRIPODS Research Program, University of Rochester",
+      "company": "TRIPODS Research Program, University of Rochester",
       "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
-      "url": "",
       "startDate": "2023-06-01",
       "endDate": "",
       "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.\nModeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
     },
     {
-      "name": "Cornell University Math Department",
+      "company": "Cornell University Math Department",
       "position": "Calculus I Course Assistant",
-      "url": "",
       "startDate": "2022-08-01",
       "endDate": "Present",
       "summary": "Lead weekly sections and tutor students, create assignment rubrics, grade student work."
     },
     {
-      "name": "Cornell University Library",
+      "company": "Cornell University Library",
       "position": "Student Library Assistant",
-      "url": "",
       "startDate": "2021-08-01",
       "endDate": "2023-05-01",
       "summary": "Managed graduate carrels, assisted patrons at front desk, processed library materials."
@@ -52,25 +47,21 @@
     },
     {
       "organization": "Women in Computing Cornell",
-      "position": "",
       "startDate": "2021-08-01",
       "endDate": "Present"
     },
     {
       "organization": "Cornell Philharmonia",
-      "position": "",
       "startDate": "2022-08-01",
       "endDate": "2023-05-01"
     },
     {
       "organization": "Cornell Digital Humanities",
-      "position": "",
       "startDate": "2021-08-01",
       "endDate": "2022-05-01"
     },
     {
       "organization": "Volunteer Tax Income Assistance (VITA)",
-      "position": "",
       "startDate": "2016-08-01",
       "endDate": "2020-05-01"
     }
@@ -82,19 +73,12 @@
       "studyType": "B.A.",
       "startDate": "2021-08-01",
       "endDate": "2025-05-01",
-      "score": "",
-      "courses": [],
-      "summary": ""
     },
     {
       "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
-      "area": "",
       "studyType": "High School Diploma",
       "startDate": "2016-08-01",
       "endDate": "2020-05-01",
-      "score": "",
-      "courses": [],
-      "summary": "National Merit Semifinalist, National AP Scholar, National Spanish Exam Gold Medalist, ACT (36/36)"
     }
   ],
   "skills": [
