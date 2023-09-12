@@ -6,14 +6,7 @@
     "email": "jjk358@cornell.edu",
     "phone": "",
     "url": "https://jennjkim.github.io",
-    "summary": "B.A. in Mathematics student at Cornell University, expected graduation May 2025.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Ithaca",
-      "countryCode": "US",
-      "region": "New York"
-    },
+    "summary": "B.A. in Mathematics student at Cornell University, with minors in Operations Research & English.",
     "profiles": []
   },
   "work": [
@@ -46,52 +39,52 @@
     {
       "organization": "Cornell Association for Women in Mathematics",
       "position": "Social Events Co-Chair",
-      "startDate": "Fall 2022",
+      "startDate": "2022-08-01",
       "endDate": "Present",
       "summary": "Plan, organize, and lead all social events as undergraduate Social Events Co-Chair. Coordinate and organize community events, e.g. Julia Robinson Math Festival, as Outreach Co-Chair."
     },
     {
       "organization": "The Cornell Tradition",
       "position": "Fellow",
-      "startDate": "Fall 2021",
+      "startDate": "2021-08-01",
       "endDate": "Present",
       "summary": "One of 500 fellows (less than 4% of undergraduates) recognized by Cornell University for 'significant work experience, campus and/or community service, and academic achievement.' Volunteer for Cornell Tradition-specific events and organizations such as Prisoner Express."
     },
     {
       "organization": "Women in Computing Cornell",
-      "position": "Member",
-      "startDate": "Fall 2021",
+      "position": "",
+      "startDate": "2021-08-01",
       "endDate": "Present"
     },
     {
       "organization": "Cornell Philharmonia",
-      "position": "Musician",
-      "startDate": "Fall 2022",
-      "endDate": "Spring 2023"
+      "position": "",
+      "startDate": "2022-08-01",
+      "endDate": "2023-05-01"
     },
     {
       "organization": "Cornell Digital Humanities",
-      "position": "Member",
-      "startDate": "Fall 2021",
-      "endDate": "Spring 2022"
+      "position": "",
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-01"
     },
     {
       "organization": "Volunteer Tax Income Assistance (VITA)",
-      "position": "Volunteer",
-      "startDate": "Fall 2016",
-      "endDate": "Spring 2020"
+      "position": "",
+      "startDate": "2016-08-01",
+      "endDate": "2020-05-01"
     }
   ],
   "education": [
     {
       "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
-      "area": "Mathematics",
-      "studyType": "Bachelor",
+      "area": "Mathematics with Minors in Operations Research & English",
+      "studyType": "B.A.",
       "startDate": "2021-08-01",
       "endDate": "2025-05-01",
       "score": "",
       "courses": [],
-      "summary": "Expected May 2025\nDean’s List\nMinors in Operations Research and English"
+      "summary": ""
     },
     {
       "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
@@ -101,97 +94,21 @@
       "endDate": "2020-05-01",
       "score": "",
       "courses": [],
-      "summary": "National Merit Semifinalist\nNational AP Scholar\nNational Spanish Exam Gold Medalist\nACT (36/36)"
+      "summary": "National Merit Semifinalist, National AP Scholar, National Spanish Exam Gold Medalist, ACT (36/36)"
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
   "skills": [
     {
-      "name": "Python",
-      "level": "",
-      "keywords": []
+      "name": "Technical",
+      "keywords": [ "Python", "Java", "Matlab", "LaTeX", "AutoCAD", "Autodesk Inventor", "MS Excel & PowerPoint", "Google Suite" ]
     },
     {
-      "name": "Java",
-      "level": "",
-      "keywords": []
+      "name": "Data Science",
+      "keywords": [ "Scikit-learn", "Matplotlib", "NumPy", "Pandas", "PyTorch", "TensorFlow/Keras", "FB Prophet", "Jupyter Notebooks", "Google Colab", "SQL", "Tableau" ]
     },
     {
-      "name": "Matlab",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "LaTeX",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "AutoCAD",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Autodesk Inventor",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MS Excel & PowerPoint",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Google Suite",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Scikit-learn",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Matplotlib",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "NumPy",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Pandas",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PyTorch",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TensorFlow/Keras",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "FB Prophet",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Jupyter Notebooks",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Google Colab",
-      "level": "",
-      "keywords": []
+      "name": "Languages",
+      "keywords": [ "English (fluent)", "Korean (fluent)", "Spanish (beginner)" ]
     }
   ],
   "languages": [
@@ -226,6 +143,5 @@
       "keywords": []
     }
   ],
-  "references": [],
   "projects": []
 }
