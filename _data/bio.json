@@ -4,16 +4,16 @@
     "label": "Student",
     "email": "jjk358@cornell.edu",
     "website": "https://jennjkim.github.io",
-    "summary": "B.A. in Mathematics student at Cornell University, expected graduation May 2025."
+    "summary": "B.A. in Mathematics student at Cornell University, with minors in Operations Research & English."
   },
   "profiles": [
     { "network": "github", "username": "jennjikim", "url": "https://github.com/jennjikim" }
   ],
   "interests": [
-    { "name": "Long-form Journalism" },
-    { "name": "Literature" },
-    { "name": "Chemistry" },
-    { "name": "Music Curation and Performance (Oboe, Piano)" }
+    { "name": "Data Science" },
+    { "name": "Mathematics" },
+    { "name": "Operations Research" },
+    { "name": "Literature" }
   ],
   "skills": [
     {
@@ -32,8 +32,8 @@
   "education": [
     {
       "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
-      "major": "B.A. in Mathematics",
-      "minor": "Minors in Operations Research & English",
+      "area": "Mathematics with Minors in Operations Research & English",
+      "studyType": "B.A.",
       "startDate": "2021",
       "endDate": "2025"
     },
@@ -44,7 +44,7 @@
       "endDate": "2020"
     }
   ],
-  "work and research": [
+  "work: [
     {
       "company": "TRIPODS Research Program, University of Rochester",
       "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
