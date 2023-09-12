@@ -1,55 +1,70 @@
 {
   "basics": {
     "name": "Jennifer J. Kim",
-    "label": "Student",
     "email": "jjk358@cornell.edu",
     "website": "https://jennjkim.github.io",
-    "summary": "B.A. in Mathematics student at Cornell University, with minors in Operations Research & English."
+    "location": {
+      "city": "Ithaca",
+      "countryCode": "USA",
+      "region": "New York"
+    }
   },
   "profiles": [
     { "network": "github", "username": "jennjikim", "url": "https://github.com/jennjikim" }
   ],
-  "interests": [
-    { "name": "Data Science" },
-    { "name": "Mathematics" },
-    { "name": "Operations Research" },
-    { "name": "Literature" }
-  ],
-  "skills": [
-    {
-      "name": "Technical",
-      "keywords": [ "Python", "Java", "Matlab", "LaTeX", "AutoCAD", "Autodesk Inventor", "MS Excel & PowerPoint", "Google Suite" ]
-    },
-    {
-      "name": "Data Science",
-      "keywords": [ "Scikit-learn", "Matplotlib", "NumPy", "Pandas", "PyTorch", "TensorFlow/Keras", "FB Prophet", "Jupyter Notebooks", "Google Colab", "SQL (scheduled course for Spring 2024)", "Tableau (scheduled course for Spring 2024)" ]
-    },
-    {
-      "name": "Languages",
-      "keywords": [ "English (fluent)", "Korean (fluent)", "Spanish (beginner)" ]
-    }
-  ],
   "education": [
     {
       "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
-      "area": "Mathematics with Minors in Operations Research & English",
-      "studyType": "B.A.",
+      "area": "B.A. in Mathematics",
+      "studyType": "Bachelor's",
       "startDate": "2021",
-      "endDate": "2025"
+      "endDate": "2025",
+      "courses": [],
+      "summary": "Expected May 2025\nDean’s List\nMinors in Operations Research and English"
     },
     {
       "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
       "studyType": "High School Diploma",
       "startDate": "2016",
-      "endDate": "2020"
+      "endDate": "2020-",
+      "summary": "National Merit Semifinalist\nNational AP Scholar\nNational Spanish Exam Gold Medalist\nACT (36/36)"
     }
   ],
-  "work": [
+  "relevant_coursework": {
+    "Mathematics": [
+      "Honors Introduction to Analysis",
+      "Probability",
+      "Linear Algebra",
+      "Abstract Algebra",
+      "Classical Geometries",
+      "Mathematical Modeling",
+      "Multivariable Calculus",
+      "Calculus I and II"
+    ],
+    "Operations Research & Computer Science": [
+      "Optimization I*",
+      "Simulation Modeling & Analysis*",
+      "Learning with Big Messy Data*",
+      "Object-Oriented Programming and Data Structures",
+      "Introduction to Computing Using Python"
+    ],
+    "Other": [
+      "Financial Accounting",
+      "Intermediate Microeconomics",
+      "Introduction to Macroeconomics"
+    ]
+  },
+  "work_and_research": [
     {
       "company": "TRIPODS Research Program, University of Rochester",
-      "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
+      "position": "NSF Participant",
+      "website": "https://www.rochester.edu/data-science/tripods/",
       "startDate": "Summer 2023",
-      "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data. Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
+      "endDate": "",
+      "summary": [
+        "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.",
+        "Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
+      ]
     },
     {
       "company": "Cornell University Math Department",
@@ -66,10 +81,10 @@
       "summary": "Managed graduate carrels, assisted patrons at front desk, processed library materials."
     }
   ],
-  "volunteer": [
+  "extracurricular": [
     {
       "organization": "Cornell Association for Women in Mathematics",
-      "position": "Social Events & Community Outreach Co-Chair",
+      "position": "Social Events Co-Chair",
       "startDate": "Fall 2022",
       "endDate": "Present",
       "summary": "Plan, organize, and lead all social events as undergraduate Social Events Co-Chair. Coordinate and organize community events, e.g. Julia Robinson Math Festival, as Outreach Co-Chair."
@@ -79,32 +94,68 @@
       "position": "Fellow",
       "startDate": "Fall 2021",
       "endDate": "Present",
-      "summary": "One of 500 fellows (less than 4% of undergraduates) recognized by Cornell University for significant work experience, campus and/or community service, and academic achievement. Volunteer for Cornell Tradition-specific events and organizations such as Prisoner Express."
+      "summary": "One of 500 fellows (less than 4% of undergraduates) recognized by Cornell University for 'significant work experience, campus and/or community service, and academic achievement.' Volunteer for Cornell Tradition-specific events and organizations such as Prisoner Express."
     },
     {
       "organization": "Women in Computing Cornell",
+      "position": "Member",
       "startDate": "Fall 2021",
-      "endDate": "Present"
+      "endDate": "Present",
     },
     {
       "organization": "Cornell Philharmonia",
+      "position": "Musician",
       "startDate": "Fall 2022",
-      "endDate": "Spring 2023"
+      "endDate": "Spring 2023",
     },
     {
       "organization": "Cornell Digital Humanities",
+      "position": "Member",
       "startDate": "Fall 2021",
-      "endDate": "Spring 2022"
+      "endDate": "Spring 2022",
     },
     {
       "organization": "Volunteer Tax Income Assistance (VITA)",
+      "position": "Volunteer",
       "startDate": "Fall 2016",
-      "endDate": "Spring 2020"
+      "endDate": "Spring 2020",
     }
   ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
+  "skills_and_interests": {
+    "Technical Skills": [
+      "Python",
+      "Java",
+      "Matlab",
+      "LaTeX",
+      "AutoCAD",
+      "Autodesk Inventor",
+      "MS Excel & PowerPoint",
+      "Google Suite"
+    ],
+    "Data Science Skills": [
+      "Scikit-learn",
+      "Matplotlib",
+      "NumPy",
+      "Pandas",
+      "PyTorch",
+      "TensorFlow/Keras",
+      "FB Prophet",
+      "Jupyter Notebooks",
+      "Google Colab",
+      "SQL*",
+      "Tableau*"
+      "* indicates skill to be learned in planned Spring '24 coursework"
+    ],
+    "Languages": [
+      "English (fluent)",
+      "Korean (fluent)",
+      "Spanish (beginner)"
+    ],
+    "Interests": [
+      "Data Science",
+      "Mathematics",
+      "Operations Research",
+      "Literature"
+    ]
+  }
 }
