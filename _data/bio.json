@@ -22,7 +22,7 @@
     },
     {
       "name": "Data Science",
-      "keywords": [ "Scikit-learn", "Matplotlib", "NumPy", "Pandas", "PyTorch", "TensorFlow/Keras", "FB Prophet", "Jupyter Notebooks", "Google Colab", "SQL (scheduled course for Spring 2023)", "Tableau (scheduled course for Spring 2023)" ]
+      "keywords": [ "Scikit-learn", "Matplotlib", "NumPy", "Pandas", "PyTorch", "TensorFlow/Keras", "FB Prophet", "Jupyter Notebooks", "Google Colab", "SQL (scheduled course for Spring 2024)", "Tableau (scheduled course for Spring 2024)" ]
     },
     {
       "name": "Languages",
@@ -48,9 +48,8 @@
     {
       "company": "TRIPODS Research Program, University of Rochester",
       "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
-      "Date": "Summer 2023",
-      "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.",
-      "summary": "Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
+      "startDate": "Summer 2023",
+      "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data. Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
     },
     {
       "company": "Cornell University Math Department",
@@ -67,7 +66,7 @@
       "summary": "Managed graduate carrels, assisted patrons at front desk, processed library materials."
     }
   ],
-  "extracurricular": [
+  "volunteer": [
     {
       "organization": "Cornell Association for Women in Mathematics",
       "position": "Social Events & Community Outreach Co-Chair",
