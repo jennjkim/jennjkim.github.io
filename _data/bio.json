@@ -47,6 +47,7 @@
     },
     {
       "organization": "Women in Computing Cornell",
+      "position": "",
       "startDate": "2021-08-01",
       "endDate": "Present"
     },
@@ -73,9 +74,28 @@
       "studyType": "B.A.",
       "startDate": "2021-08-01",
       "endDate": "2025-05-01",
+      "courses": [
+      "Honors Introduction to Analysis",
+      "Probability",
+      "Linear Algebra",
+      "Abstract Algebra",
+      "Classical Geometries",
+      "Mathematical Modeling",
+      "Multivariable Calculus",
+      "Calculus I and II",
+      "Optimization I",
+      "Simulation Modeling & Analysis",
+      "(Machine) Learning with Big Messy Data",
+      "Object-Oriented Programming and Data Structures",
+      "Introduction to Computing Using Python",
+      "Financial Accounting",
+      "Intermediate Microeconomics",
+      "Introduction to Macroeconomics"
+    ]
     },
     {
       "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
+      "area": "",
       "studyType": "High School Diploma",
       "startDate": "2016-08-01",
       "endDate": "2020-05-01",
