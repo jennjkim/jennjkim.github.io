@@ -1,113 +1,106 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Jennifer J. Kim",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
-    "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
-    ]
+    "email": "jjk358@cornell.edu",
+    "website": "https://jennjkim.github.io",
+    "summary": "B.A. in Mathematics student at Cornell University, expected graduation May 2025."
   },
+  "profiles": [
+    { "network": "github", "username": "jennjikim", "url": "https://github.com/jennjikim" },
+  ],
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Long-form Journalism" },
+    { "name": "Literature" },
+    { "name": "Chemistry" },
+    { "name": "Music Curation and Performance (Oboe, Piano)" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Technical",
+      "keywords": [ "Python", "Java", "Matlab", "LaTeX", "AutoCAD", "Autodesk Inventor", "MS Excel & PowerPoint", "Google Suite" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Data Science",
+      "keywords": [ "Scikit-learn", "Matplotlib", "NumPy", "Pandas", "PyTorch", "TensorFlow/Keras", "FB Prophet", "Jupyter Notebooks", "Google Colab", "SQL (scheduled course for Spring 2023)", "Tableau (scheduled course for Spring 2023)" ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [ "English (fluent)", "Korean (fluent)", "Spanish (beginner)" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+      "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
+      "major": "B.A. in Mathematics",
+      "minor": "Minors in Operations Research & English",
+      "startDate": "2021",
+      "endDate": "2025"
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+      "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
+      "studyType": "High School Diploma",
+      "startDate": "2016",
+      "endDate": "2020"
     }
   ],
-  "volunteer": [
+  "work and research": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "company": "TRIPODS Research Program, University of Rochester",
+      "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
+      "Date": "Summer 2023",
+      "bullet 1": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.",
+      "bullet 2": "Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
+    },
+    {
+      "company": "Cornell University Math Department",
+      "position": "Calculus I Course Assistant",
+      "startDate": "Fall 2022",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
+      "summary": "Lead weekly sections and tutor students, create assignment rubrics, grade student work."
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
+      "company": "Cornell University Library",
+      "position": "Student Library Assistant",
+      "startDate": "Fall 2021",
+      "endDate": "Spring 2023",
+      "summary": "Managed graduate carrels, assisted patrons at front desk, processed library materials."
     }
   ],
-  "awards": [
+  "extracurricular": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "organization": "Cornell Association for Women in Mathematics",
+      "position": "Social Events & Community Outreach Co-Chair",
+      "startDate": "Fall 2022",
+      "endDate": "Present",
+      "summary": "Plan, organize, and lead all social events as undergraduate Social Events Co-Chair. Coordinate and organize community events, e.g. Julia Robinson Math Festival, as Outreach Co-Chair."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "organization": "The Cornell Tradition",
+      "position": "Fellow",
+      "startDate": "Fall 2021",
+      "endDate": "Present",
+      "summary": "One of 500 fellows (less than 4% of undergraduates) recognized by Cornell University for significant work experience, campus and/or community service, and academic achievement. Volunteer for Cornell Tradition-specific events and organizations such as Prisoner Express."
+    },
+    {
+      "organization": "Women in Computing Cornell",
+      "startDate": "Fall 2021",
+      "endDate": "Present",
+    },
+    {
+      "organization": "Cornell Philharmonia",
+      "startDate": "Fall 2022",
+      "endDate": "Spring 2023",
+    },
+    {
+      "organization": "Cornell Digital Humanities",
+      "startDate": "Fall 2021",
+      "endDate": "Spring 2022",
+    },
+    {
+      "organization": "Volunteer Tax Income Assistance (VITA)",
+      "startDate": "Fall 2016",
+      "endDate": "Spring 2020",
     }
   ],
   "references": [
