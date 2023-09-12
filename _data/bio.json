@@ -4,7 +4,7 @@
     "label": "Student",
     "image": "",
     "email": "jjk358@cornell.edu",
-    "location": { "address": "", "postalCode": "14850, "city": "Ithaca", "countryCode": "USA", "region": "New York" },
+    "location": { "address": "", "postalCode": "14850", "city": "Ithaca", "countryCode": "USA", "region": "New York" },
     "url": "https://jennjkim.github.io",
     "summary": "B.A. in Mathematics student at Cornell University, with minors in Operations Research & English.",
   },
