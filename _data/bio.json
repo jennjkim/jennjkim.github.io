@@ -44,13 +44,13 @@
       "endDate": "2020"
     }
   ],
-  "work: [
+  "work": [
     {
       "company": "TRIPODS Research Program, University of Rochester",
       "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
       "Date": "Summer 2023",
-      "bullet 1": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.",
-      "bullet 2": "Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
+      "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.",
+      "summary": "Modeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
     },
     {
       "company": "Cornell University Math Department",
@@ -85,22 +85,22 @@
     {
       "organization": "Women in Computing Cornell",
       "startDate": "Fall 2021",
-      "endDate": "Present",
+      "endDate": "Present"
     },
     {
       "organization": "Cornell Philharmonia",
       "startDate": "Fall 2022",
-      "endDate": "Spring 2023",
+      "endDate": "Spring 2023"
     },
     {
       "organization": "Cornell Digital Humanities",
       "startDate": "Fall 2021",
-      "endDate": "Spring 2022",
+      "endDate": "Spring 2022"
     },
     {
       "organization": "Volunteer Tax Income Assistance (VITA)",
       "startDate": "Fall 2016",
-      "endDate": "Spring 2020",
+      "endDate": "Spring 2020"
     }
   ],
   "references": [
