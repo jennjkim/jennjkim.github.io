@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jennifer J. Kim",
     "label": "Student",
-    "image": "uploads/IMG_3897.jpg",
+    "image": "https://raw.githubusercontent.com/jennjkim/jennjkim.github.io/main/uploads/IMG_3897.jpg",
     "email": "jjk358@cornell.edu",
     "location": { "address": "", "postalCode": "14850", "city": "Ithaca", "countryCode": "USA", "region": "New York" },
     "url": "https://jennjkim.github.io",
