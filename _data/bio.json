@@ -130,19 +130,15 @@
   ],
   "interests": [
     {
-      "name": "Data Science",
-      "keywords": []
-    },
-    {
       "name": "Mathematics",
       "keywords": []
     },
     {
-      "name": "Operations Research",
+      "name": "Data Science",
       "keywords": []
     },
     {
-      "name": "Literature",
+      "name": "Operations Research",
       "keywords": []
     }
   ],
