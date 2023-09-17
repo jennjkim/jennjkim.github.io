@@ -14,11 +14,8 @@ summary: "For my Intro to Computing with Python course, my partner and I develop
 
 https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919
 
-<div class="ratio ratio-4x3 my-4">
-  <iframe src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919" 
-          title="Alien Invaders Demo" 
-          allowfullscreen>
-  </iframe>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919" controls></video>
 </div>
 
 
