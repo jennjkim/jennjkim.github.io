@@ -3,13 +3,12 @@ layout: project
 type: project
 image: img/alien-invaders/Alien Invaders Photo.png
 title: "Optimizing Cavern Paths"
-date: December 2021
+date: May 2022
 published: true
 labels:
   - Java
   - Eclipse
   - Shortest Path
-    
 summary: "For my Object-Oriented Programming and Data Structures course, my partner and I developed code in Java for a game optimizing paths in a cavern."
 ---
   
@@ -61,7 +60,11 @@ Ultimately, completing this project helped me understand the significance of imp
 Here is a demo video of the game running, with comparison of pre and post-optimized paths:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919" controls></video>
+  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/3a4a161f-66ff-4988-8648-891bf6401c02" controls></video>
 </div>
+
+
+
+
 
 
