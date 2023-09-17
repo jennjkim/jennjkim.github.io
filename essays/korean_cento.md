@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: "Osaekchallan - A Cento of Modern Korean Poetry"
-date: March 2022
+date: April 2023
 labels:
   - Poetry
   - English
