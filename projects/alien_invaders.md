@@ -10,13 +10,7 @@ labels:
   - Game Development
 summary: "For my Intro to Computing with Python course, my partner and I developed code in Python to create a game similar to the classic game 'Space Invaders.'"
 ---
-
-<div class="ratio ratio-4x3 my-4">
-  <iframe src="img/alien-invaders/Alien Invaders Demo.mp4" type="video/mp4"
-          title="Alien Invaders Demo" 
-          allowfullscreen>
-  </iframe>
-</div>
+https://github.com/jennjkim/jennjkim.github.io/assets/94199268/bf4620d5-4926-4282-8b11-604c2f96285b
 
 Alien Invaders is a game that pays tribute to "Space Invaders." My partner and I developed code in Python and used Atom editor to implement core game development ideas. We followed the model-view-controller (MVC) pattern and implemented various components of the game, including wave initialization, pausing, and end-game scenarios. 
 
