@@ -8,7 +8,7 @@ published: true
 labels:
   - Python
   - Game Development
-summary: "For my Intro to Computing with Python course, my partner and I developed code to create a game similar to "Space Invaders" in Python."
+summary: "For my Intro to Computing with Python course, my partner and I developed code in Python to create a game similar to the classic game 'Space Invaders.'
 ---
 
 <div class="text-center p-4">
