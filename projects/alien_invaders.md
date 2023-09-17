@@ -47,5 +47,3 @@ def _deleteAliensColl(self):
 ```
 
 Ultimately, completing this project helped me understand the significance of collaboration and design principles in complex coding projects. Throughout the process, I gained a greater ability to manage and organize code and practiced working with official class documentation and APIs. The project also served as a valuable opportunity to further develop my skills in Python and GUI programming. 
-
-Here is a video that shows a demonstration of the game in action.
