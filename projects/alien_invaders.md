@@ -10,16 +10,6 @@ labels:
   - Game Development
 summary: "For my Intro to Computing with Python course, my partner and I developed code in Python to create a game similar to the classic game 'Space Invaders.'"
 ---
-
-
-https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919
-
-<div style="display: flex; justify-content: center; align-items: center;">
-  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919" controls></video>
-</div>
-
-
-
 Alien Invaders is a game that pays tribute to "Space Invaders." My partner and I developed code in Python and used Atom editor to implement core game development ideas. We followed the model-view-controller (MVC) pattern and implemented various components of the game, including wave initialization, pausing, and end-game scenarios. 
 
 We developed everything from creating the welcome screen and game features like aliens and ship animation to handling movement restrictions for the ship/player and features like firing rate. Additionally, we handled critical aspects like collision detection and interaction between different game elements. 
@@ -50,3 +40,11 @@ def _deleteAliensColl(self):
 ```
 
 Ultimately, completing this project helped me understand the significance of collaboration and design principles in complex coding projects. Throughout the process, I gained a greater ability to manage and organize code and practiced working with official class documentation and APIs. The project also served as a valuable opportunity to further develop my skills in Python and GUI programming. 
+
+Here is a demo video of the game running:
+
+
+div style="display: flex; justify-content: center; align-items: center;">
+  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919" controls></video>
+</div>
+
