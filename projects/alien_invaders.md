@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/alien-invaders/Alien Invaders Photo.png
 title: "Alien Invaders Game"
 date: December 2021
 published: true
@@ -11,11 +11,10 @@ labels:
 summary: "For my Intro to Computing with Python course, my partner and I developed code in Python to create a game similar to the classic game 'Space Invaders.'"
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+<video width="100%" controls>
+  <source src="img/alien-invaders/Alien Invaders Demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Alien Invaders is a game that pays tribute to "Space Invaders." My partner and I developed code in Python and used Atom editor to implement core game development ideas. We followed the model-view-controller (MVC) pattern and implemented various components of the game, including wave initialization, pausing, and end-game scenarios. 
 
