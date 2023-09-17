@@ -11,10 +11,12 @@ labels:
 summary: "For my Intro to Computing with Python course, my partner and I developed code in Python to create a game similar to the classic game 'Space Invaders.'"
 ---
 
-<video width="100%" controls>
-  <source src="img/alien-invaders/Alien Invaders Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="ratio ratio-4x3 my-4">
+  <iframe src="img/alien-invaders/Alien Invaders Demo.mp4" type="video/mp4"
+          title="Alien Invaders Demo" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 Alien Invaders is a game that pays tribute to "Space Invaders." My partner and I developed code in Python and used Atom editor to implement core game development ideas. We followed the model-view-controller (MVC) pattern and implemented various components of the game, including wave initialization, pausing, and end-game scenarios. 
 
