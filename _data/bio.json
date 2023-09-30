@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jennifer J. Kim",
-    "label": "Student",
+    "label": "B.A. in Mathematics student at Cornell University. Minors in Operations Research and English.",
     "picture": "https://github.com/jennjkim.png",
     "email": "jjk358@cornell.edu",
     "location": { "address": "", "postalCode": "14850", "city": "Ithaca", "countryCode": "USA", "region": "New York" },
     "url": "https://jennjkim.github.io",
-    "summary": "B.A. in Mathematics student at Cornell University. Minors in Operations Research and English.\nProjects to Be Featured Soon: Retail Time Series Analysis, Covid Modeling, Movies Database Analysis, Traffic Stops Modeling, Seizure Modeling."
+    "summary": "Projects to Be Featured Soon: Retail Time Series Analysis, Covid Modeling, Movies Database Analysis, Traffic Stops Modeling, Seizure Modeling."
   },
   "work": [
     {
