@@ -1,0 +1,150 @@
+{
+  "basics": {
+    "name": "Jennifer J. Kim",
+    "label": "B.A. in Mathematics student at Cornell University. Minors in Operations Research and English.",
+    "picture": "https://github.com/jennjkim.png",
+    "email": "jjk358@cornell.edu",
+    "location": { "address": "", "postalCode": "14850", "city": "Ithaca", "countryCode": "USA", "region": "New York" },
+    "url": "https://jennjkim.github.io",
+    "summary": "Projects to Be Featured Soon: Retail Time Series Analysis, Covid Modeling, Movies Database Analysis, Traffic Stops Modeling, Seizure Modeling."
+  },
+  "work": [
+    {
+      "company": "TRIPODS Research Program, University of Rochester",
+      "position": "TRIPODS (Transdisciplinary Research In Principles Of Data Science) NSF Participant",
+      "startDate": "2023-06-01",
+      "endDate": "",
+      "summary": "Researched Kolmogorov complexity as a measure of forecastability for retail analytics time series data.\nModeled seizures and explored surrogate data testing, utilizing methods like Fast Fourier transform."
+    },
+    {
+      "company": "Cornell University Math Department",
+      "position": "Calculus I Course Assistant",
+      "startDate": "2022-08-01",
+      "endDate": "Present",
+      "summary": "Lead weekly sections and tutor students, create assignment rubrics, grade student work."
+    },
+    {
+      "company": "Cornell University Library",
+      "position": "Student Library Assistant",
+      "startDate": "2021-08-01",
+      "endDate": "2023-05-01",
+      "summary": "Managed graduate carrels, assisted patrons at front desk, processed library materials."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Cornell Association for Women in Mathematics",
+      "position": "Social Events Co-Chair",
+      "startDate": "2022-08-01",
+      "endDate": "Present",
+      "summary": "Plan, organize, and lead all social events as undergraduate Social Events Co-Chair. Coordinate and organize community events, e.g. Julia Robinson Math Festival, as Outreach Co-Chair."
+    },
+    {
+      "organization": "The Cornell Tradition",
+      "position": "Fellow",
+      "startDate": "2021-08-01",
+      "endDate": "Present",
+      "summary": "One of 500 fellows (less than 4% of undergraduates) recognized by Cornell University for 'significant work experience, campus and/or community service, and academic achievement.' Volunteer for Cornell Tradition-specific events and organizations such as Prisoner Express."
+    },
+    {
+      "organization": "Women in Computing Cornell",
+      "position": "",
+      "startDate": "2021-08-01",
+      "endDate": "Present"
+    },
+    {
+      "organization": "Cornell Philharmonia",
+      "startDate": "2022-08-01",
+      "endDate": "2023-05-01"
+    },
+    {
+      "organization": "Cornell Digital Humanities",
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-01"
+    },
+    {
+      "organization": "Volunteer Tax Income Assistance (VITA)",
+      "startDate": "2016-08-01",
+      "endDate": "2020-05-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cornell University, College of Arts & Sciences, Ithaca, NY",
+      "area": "Mathematics with Minors in Operations Research & English",
+      "studyType": "B.A.",
+      "startDate": "2021-08-01",
+      "endDate": "2025-05-01",
+      "courses": [
+      "Honors Introduction to Analysis",
+      "Probability",
+      "Linear Algebra",
+      "Abstract Algebra",
+      "Classical Geometries",
+      "Mathematical Modeling",
+      "Multivariable Calculus",
+      "Calculus I and II",
+      "Optimization I",
+      "Simulation Modeling & Analysis",
+      "(Machine) Learning with Big Messy Data",
+      "Object-Oriented Programming and Data Structures",
+      "Introduction to Computing Using Python",
+      "Financial Accounting",
+      "Intermediate Microeconomics",
+      "Introduction to Macroeconomics"
+    ]
+    },
+    {
+      "institution": "The Gwinnett School of Mathematics, Science, and Technology (GSMST), Lawrenceville, GA",
+      "startDate": "2016-08-01",
+      "endDate": "2020-05-01",
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical",
+      "keywords": [ "Python", "Java", "Matlab", "LaTeX", "AutoCAD", "Autodesk Inventor", "MS Excel & PowerPoint", "Google Suite" ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [ "Scikit-learn", "Matplotlib", "NumPy", "Pandas", "PyTorch", "TensorFlow/Keras", "FB Prophet", "Jupyter Notebooks", "Google Colab", "SQL", "Tableau" ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [ "English (fluent)", "Korean (fluent)", "Spanish (beginner)" ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Mathematics",
+      "keywords": []
+    },
+    {
+      "name": "Data Science",
+      "keywords": []
+    },
+        {
+      "name": "Operations Research",
+      "keywords": []
+    },
+    {
+      "name": "Literature",
+      "keywords": []
+    }
+  ],
+  "projects": []
+}

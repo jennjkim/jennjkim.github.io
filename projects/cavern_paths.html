@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Optimizing Cavern Paths | Jennifer J. Kim | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jennjkim.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jennifer J. Kim | Professional Portfolio">
+    <meta property="og:url" content="https://jennjkim.github.io/projects/cavern_paths.html">
+    <meta property="og:title" content="Optimizing Cavern Paths | Jennifer J. Kim | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jennjkim.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/tulip.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Optimizing Cavern Paths | Jennifer J. Kim | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand-md navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jennifer J. Kim</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Writing</a>
+        <a class="nav-link" href="/about-me.html">About</a>
+        <a class="nav-link" href="uploads/Resume Summer 2023 Update.pdf">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Optimizing Cavern Paths</h1>
+ <div style="display: flex; justify-content: center; align-items: center;">
+  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/3a4a161f-66ff-4988-8648-891bf6401c02" controls=""></video>
+</div>
+
+<p>The above is a demo video of the game running, with comparison of pre and post-optimized paths:</p>
+
+<p>For my Object-Oriented Programming and Data Structures course, my partner and I developed code for a game in Java where the objective was to:</p>
+
+<p>1) Find a hidden orb in a cavern with the shortest number of steps possible. 
+2) Escape from the cavern given a set time.
+3) While fleeing the cavern, collect as much gold as possible (this acts a bonus for the total score at the end, where the total score was based on the time it took to leave the cave and also the gold collected.)</p>
+
+<p>We found an optimal solution for the final score. My partner and I wrote code that was organized into two main methods: <code class="language-plaintext highlighter-rouge">find(FindState state)</code> for finding the orb inside the cavern and <code class="language-plaintext highlighter-rouge">flee(FleeState state)</code> for escaping the cavern. While coding, we used linked lists and knowledge of shortest path algorithms.</p>
+
+<p><strong>Finding the Orb (<code class="language-plaintext highlighter-rouge">find</code> method):</strong></p>
+<ul>
+  <li>When coding the <code class="language-plaintext highlighter-rouge">find</code> method, my partner and I used various algorithms, including depth-first search (DFS), optimized minimum distance, and optimized sorting of distances, to explore the cavern and find the orb.</li>
+  <li>We had a <code class="language-plaintext highlighter-rouge">visitedIDs</code> list to keep track of visited node IDs to avoid revisiting nodes.</li>
+</ul>
+
+<p><strong>Escaping the Cavern (<code class="language-plaintext highlighter-rouge">flee</code> method):</strong></p>
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">flee</code> method focused on escaping the cavern before a collapse while collecting as much gold as possible.</li>
+  <li>We utilized Dijkstra’s algorithm to find the shortest path to the exit.</li>
+  <li>We wrote helper methods to handle gold collection and path traversal.</li>
+  <li>For example, we had a <code class="language-plaintext highlighter-rouge">pathInfo</code> class that encapsulated information about paths and distances between the current location, gold nodes, and the exit.</li>
+</ul>
+
+<p>We also had further helper methods for traversing nodes, finding the minimum distance node for paths, and managing paths with gold. The overall strategy was to efficiently navigate the cavern, prioritize escaping, and collect gold if it could be done within the time constraints.</p>
+
+<p>For reference, here is a code snippet of a method called optimizedFlee that guided the character to escape the cavern while making efficient decisions based on the number of steps left.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="cm">/** Traverses the cavern by choosing the neighbors with the smallest distance to the Orb by
+    using helper getminID(). **/</span>
+    
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">optimizedMinDist</span><span class="o">(</span><span class="nc">FindState</span> <span class="n">state</span><span class="o">,</span> <span class="nc">ArrayList</span><span class="o">&lt;</span><span class="nc">Long</span><span class="o">&gt;</span> <span class="n">visitedIDs</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">state</span><span class="o">.</span><span class="na">distanceToOrb</span><span class="o">()</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="k">return</span><span class="o">;</span>
+        <span class="kt">long</span> <span class="n">currNodeID</span><span class="o">=</span> <span class="n">state</span><span class="o">.</span><span class="na">currentLoc</span><span class="o">();</span>
+        <span class="n">visitedIDs</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">currNodeID</span><span class="o">);</span>
+        <span class="k">for</span> <span class="o">(</span><span class="nc">NodeStatus</span> <span class="n">w</span> <span class="o">:</span> <span class="n">state</span><span class="o">.</span><span class="na">neighbors</span><span class="o">())</span> <span class="o">{</span>
+            <span class="kt">long</span> <span class="n">minID</span><span class="o">=</span> <span class="n">getMinID</span><span class="o">(</span><span class="n">state</span><span class="o">);</span>
+            <span class="kt">long</span> <span class="n">wID</span><span class="o">=</span> <span class="n">w</span><span class="o">.</span><span class="na">getId</span><span class="o">();</span>
+            <span class="k">if</span> <span class="o">(!</span><span class="n">visitedIDs</span><span class="o">.</span><span class="na">contains</span><span class="o">(</span><span class="n">wID</span><span class="o">)</span> <span class="o">&amp;&amp;</span> <span class="n">minID</span> <span class="o">==</span> <span class="n">wID</span><span class="o">)</span> <span class="o">{</span>
+                <span class="n">state</span><span class="o">.</span><span class="na">moveTo</span><span class="o">(</span><span class="n">wID</span><span class="o">);</span>
+                <span class="n">optimizedMinDist</span><span class="o">(</span><span class="n">state</span><span class="o">,</span> <span class="n">visitedIDs</span><span class="o">);</span>
+                <span class="k">if</span> <span class="o">(</span><span class="n">state</span><span class="o">.</span><span class="na">distanceToOrb</span><span class="o">()</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span> <span class="k">return</span><span class="o">;</span>
+                <span class="n">state</span><span class="o">.</span><span class="na">moveTo</span><span class="o">(</span><span class="n">currNodeID</span><span class="o">);</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+
+<p>Ultimately, completing this project helped me understand the significance of implementing concepts like DFS and shortest path algorithms to a fun concept. While working on code to optimize the character’s actions, I also gained a better appreciation of the utilization of data structures like linked lists. Finally, the project also served as a valuable opportunity to further develop my skills in Java and object-oriented programming.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Alien Invaders Game | Jennifer J. Kim | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jennjkim.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Jennifer J. Kim | Professional Portfolio">
+    <meta property="og:url" content="https://jennjkim.github.io/projects/alien_invaders.html">
+    <meta property="og:title" content="Alien Invaders Game | Jennifer J. Kim | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jennjkim.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/tulip.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Alien Invaders Game | Jennifer J. Kim | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand-md navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Jennifer J. Kim</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Writing</a>
+        <a class="nav-link" href="/about-me.html">About</a>
+        <a class="nav-link" href="uploads/Resume Summer 2023 Update.pdf">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Alien Invaders Game</h1>
+ <p>Here is a demo video of the game running:</p>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <video width="630" height="300" src="https://github.com/jennjkim/jennjkim.github.io/assets/94199268/6e59e6b9-20a9-4690-803b-31a744fbe919" controls=""></video>
+</div>
+
+<p>Alien Invaders is a game that pays tribute to “Space Invaders.” My partner and I developed code in Python and used Atom editor to implement core game development ideas. We followed the model-view-controller (MVC) pattern and implemented various components of the game, including wave initialization, pausing, and end-game scenarios.</p>
+
+<p>We developed everything from creating the welcome screen and game features like aliens and ship animation to handling movement restrictions for the ship/player and features like firing rate. Additionally, we handled critical aspects like collision detection and interaction between different game elements.</p>
+
+<p>For example, here is some code for a function that checked for collisions between the aliens and bolts and deleted them from the screen as necessary:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">_deleteAliensColl</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+  <span class="s">"""
+  Checks if any alien in _aliens collided with any of the bolts in _bolts
+  If yes, deletes both that bolt and that alien
+  """</span>
+  <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ALIEN_ROWS</span><span class="p">):</span>
+      <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ALIENS_IN_ROW</span><span class="p">):</span>
+          <span class="n">alien</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_aliens</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="n">col</span><span class="p">]</span>
+          <span class="n">x</span> <span class="o">=</span> <span class="bp">False</span>
+          <span class="n">y</span> <span class="o">=</span> <span class="bp">None</span>
+          <span class="k">while</span> <span class="n">x</span> <span class="o">==</span> <span class="bp">False</span><span class="p">:</span>
+              <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">_bolts</span><span class="p">)):</span>
+                  <span class="k">if</span> <span class="n">alien</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+                      <span class="k">if</span> <span class="n">alien</span><span class="p">.</span><span class="n">collides</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">_bolts</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
+                          <span class="bp">self</span><span class="p">.</span><span class="n">_aliens</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span>
+                          <span class="n">y</span> <span class="o">=</span> <span class="n">i</span>
+                          <span class="n">x</span> <span class="o">=</span> <span class="bp">True</span>
+              <span class="n">x</span> <span class="o">=</span> <span class="bp">True</span>
+          <span class="k">if</span> <span class="n">y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+              <span class="k">del</span> <span class="bp">self</span><span class="p">.</span><span class="n">_bolts</span><span class="p">[</span><span class="n">y</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>Ultimately, completing this project helped me understand the significance of collaboration and design principles in complex coding projects. Throughout the process, I gained a greater ability to manage and organize code and practiced working with official class documentation and APIs. The project also served as a valuable opportunity to further develop my skills in Python and GUI programming.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
