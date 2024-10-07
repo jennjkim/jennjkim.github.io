@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jennifer J. Kim",
     "label": "B.A. in Mathematics student at Cornell University. Minors in Operations Research and English.",
-    "picture": uploads/Headshot.JPG,
+    "picture": "https://jennjkim.github.io/uploads/Headshot.JPG",
     "email": "jjk358@cornell.edu",
     "location": { "address": "", "postalCode": "14850", "city": "Ithaca", "countryCode": "USA", "region": "New York" },
     "url": "https://jennjkim.github.io",
